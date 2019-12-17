@@ -1,6 +1,6 @@
 # terminal
 
-My terminal commands and aliases
+My terminal commands and aliases.
 
 ## How to install
 
