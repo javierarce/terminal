@@ -10,7 +10,7 @@ My terminal commands and aliases
 if [ -f ~/.zsh/.snippets ]; then
   source ~/.zsh/.snippets
 else
-  print "404: ~/.zsh/.snippets not found."
+  echo "404: ~/.zsh/.snippets not found."
 fi
 ```
 
@@ -22,5 +22,5 @@ git clone git@github.com:javierarce/terminal.git ~/.zsh
 
 ## Available commands
 
-* tpl - generates a new project using an existing template (vue or node) from my github account
-* extract - extract archives from any compressed file
+* `tpl` - generates a new project using an existing template (vue or node) from my github account
+* `extract` - extract archives from any compressed file
