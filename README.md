@@ -20,6 +20,12 @@ fi
 git clone git@github.com:javierarce/terminal.git ~/.zsh
 ```
 
+3. Reload `zsh`:
+
+```
+source ~/.zshrc
+```
+
 ## Available commands
 
 * `tpl` - generates a new project using an existing template (vue or node) from my github account
