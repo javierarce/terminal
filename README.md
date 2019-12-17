@@ -17,5 +17,5 @@ fi
 2. Clone the project:
 
 ```
-git@github.com:javierarce/terminal.git ~/.zsh
+git clone git@github.com:javierarce/terminal.git ~/.zsh
 ```
