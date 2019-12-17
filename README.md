@@ -19,3 +19,8 @@ fi
 ```
 git clone git@github.com:javierarce/terminal.git ~/.zsh
 ```
+
+## Available commands
+
+* tpl - generates a new project using an existing template (vue or node) from my github account
+* extract - extract archives from any compressed file
