@@ -1,6 +1,6 @@
 # terminal
 
-My terminal commands and aliases
+My terminal commands and aliases.
 
 ## How to install
 
@@ -10,7 +10,7 @@ My terminal commands and aliases
 if [ -f ~/.zsh/.snippets ]; then
   source ~/.zsh/.snippets
 else
-  print "404: ~/.zsh/.snippets not found."
+  echo "404: ~/.zsh/.snippets not found."
 fi
 ```
 
@@ -19,3 +19,14 @@ fi
 ```
 git clone git@github.com:javierarce/terminal.git ~/.zsh
 ```
+
+3. Reload `zsh`:
+
+```
+source ~/.zshrc
+```
+
+## Available commands
+
+* `tpl` - generates a new project using an existing template (vue or node) from my github account
+* `extract` - extract archives from any compressed file
