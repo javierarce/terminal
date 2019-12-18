@@ -7,10 +7,12 @@ My terminal commands and aliases.
 1. Add this on top of `.zshrc`:
 
 ```
-if [ -f ~/.zsh/.snippets ]; then
-  source ~/.zsh/.snippets
+SNIPPETS_DIR=~/.zsh/.snippets
+
+if [ -f $SNIPPETS_DIR ]; then
+  source $SNIPPETS_DIR
 else
-  echo "404: ~/.zsh/.snippets not found."
+  echo "$SNIPPETS_DIR not found."
 fi
 ```
 
@@ -28,5 +30,6 @@ source ~/.zshrc
 
 ## Available commands
 
-* `tpl` - generates a new project using an existing template (vue or node) from my github account
-* `extract` - extract archives from any compressed file
+* `tpl` - generates a new project using an existing template (vue or node) from my GitHub account.
+* `extract` - extract archives from any compressed file.
+* `name` - generates a random adjective-noun pair (used in the `tpl` command).
