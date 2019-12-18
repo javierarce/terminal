@@ -49,6 +49,16 @@ function extract() {
   fi
 }
 
+# Get image width
+width () {
+	echo $(sips -g pixelWidth $1 | grep -oE "[[:digit:]]{1,}$")
+}
+
+# Get image height
+height () {
+	echo $(sips -g pixelHeight $1 | grep -oE "[[:digit:]]{1,}$")
+}
+
 # Git alias
 alias clone='git clone'
 alias ga='git add'

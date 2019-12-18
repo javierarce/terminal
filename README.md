@@ -32,4 +32,6 @@ source ~/.zshrc
 
 * `tpl` - generates a new project using an existing template (vue or node) from my GitHub account.
 * `extract` - extract archives from any compressed file.
+* `width` - get image width
+* `height` - get image height
 * `name` - generates a random adjective-noun pair (used in the `tpl` command).
