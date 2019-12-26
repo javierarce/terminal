@@ -13,7 +13,7 @@ function name () {
 function tpl () {
   templateName=${1:-node}
 
-  if [ "$templateName" = 'node' ] || ["$templateName" = 'express' ] || [ "$templateName" = 'vue' ]; then
+  if [ "$templateName" = 'node' ] || [ "$templateName" = 'express' ] || [ "$templateName" = 'vue' ]; then
     dir=${2:-$(name)}
     username=javierarce
 
